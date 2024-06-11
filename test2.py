@@ -22,12 +22,12 @@ url = "https://es-flight-api-cn.djigate.com/manage/api/v1.0/stream-converters"
 
 payload = json.dumps({
    "region": "cn",
-   "converter_name": "zjtest",
+   "converter_name": "test",
    "sn": sn,
    "camera": "80-0-0",
    "video": "normal-0",
-   "idle_timeout": 500,
-   "video_quality":0
+   "idle_timeout": 1000,
+   "video_quality":1
 })
 headers = {
    'X-Organization-Key': id_key,
